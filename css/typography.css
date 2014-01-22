@@ -11,10 +11,14 @@ h1, h2, h3, h4, h5, h6 {
 .yotta {
 	font-size: 4.301rem;
 	line-height: 1.1357;
+    color: #263043;
+    background-color:transparent
 }
 
 .zetta {
-	font-size: 3.052rem
+	font-size: 3.052rem;
+    color: #263043;
+    background-color:transparent
 }
 
 h1, .exa {
@@ -89,3 +93,43 @@ dt {
     font-weight:bold
 }
 
+small {
+ font-size: 0.8em   
+}
+
+s {
+ color: #5f93d0;
+}
+
+b {
+ color: #1f4474;   
+}
+
+strong {
+ color: #1f4474 
+}
+
+cite {
+    
+}
+
+q {
+ text-emphasis-color: #1f4474   
+}
+
+dfn {
+ color: #1f4474
+}
+
+abbr {
+ font-weight:bolder
+}
+
+time {
+    font-size: 1.05em;
+    font-style:italic
+}
+
+mark {
+    color: #5f93d0
+}
