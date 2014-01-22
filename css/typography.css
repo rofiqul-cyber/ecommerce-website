@@ -8,58 +8,59 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 0 1.5rem;
 }
 
-.yotta {
+.biggest {
 	font-size: 4.301rem;
 	line-height: 1.1357;
     color: #263043;
     background-color:transparent
 }
 
-.zetta {
+.big {
 	font-size: 3.052rem;
     color: #263043;
     background-color:transparent
 }
 
-h1, .exa {
+h1, .h1 {
 	font-size: 2.441rem;
     color: #FFF;
     background-color: #2f3826;
     font-family: "Century Gothic";
 }
 
-h2, .peta {
+h2, .h2 {
 	font-size: 1.953rem;
     font-family: "Century Gothic";
     color: #1f4474;
 }
 
-h3, .tera {
+h3, .h3 {
 	font-size: 1.563rem;
     font-family: "Calibri";
+    color: #1f4474;
 }
 
-h4, .giga {
+h4, .h4 {
 	font-size: 1.125rem;
     font-family: "Calibri";
 }
 
-h5, .mega {
+h5, .h5 {
 	font-size: 1rem;
     font-family: "Calibri";
 }
 
-h6, .kilo {
+h6, .h6 {
     font-size: 0.8rem;
     font-family: "Calibri";
 	}
 	
-small, .milli {
+small, .small {
 	font-size: 0.64rem;
     font-family: "Calibri";
 }
 
-.micro {
+.smallest {
 	font-size: 0.512rem;
     font-family: "Calibri";
 }
@@ -69,7 +70,7 @@ p {
 }
 
 a {
-    text-decoration:none;
+    text-decoration:underline;
     color: #5f93d0
 }
 
@@ -110,7 +111,8 @@ strong {
 }
 
 cite {
-    
+    font-style:italic;
+    font-weight:bolder
 }
 
 q {
@@ -132,4 +134,17 @@ time {
 
 mark {
     color: #5f93d0
+}
+
+table {
+ background-color: #f1f3f6
+        
+}
+
+th {
+    color: #1f4474;
+}
+
+td {
+ color: #2f3826; 
 }
