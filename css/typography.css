@@ -3,3 +3,89 @@
   - Dark green: #060 - rgb(0, 100, 0)
   - Dark red: #600 - rgb(100, 0, 0)
  */
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 1.5rem;
+}
+
+.yotta {
+	font-size: 4.301rem;
+	line-height: 1.1357;
+}
+
+.zetta {
+	font-size: 3.052rem
+}
+
+h1, .exa {
+	font-size: 2.441rem;
+    color: #FFF;
+    background-color: #2f3826;
+    font-family: "Century Gothic";
+}
+
+h2, .peta {
+	font-size: 1.953rem;
+    font-family: "Century Gothic";
+    color: #1f4474;
+}
+
+h3, .tera {
+	font-size: 1.563rem;
+    font-family: "Calibri";
+}
+
+h4, .giga {
+	font-size: 1.125rem;
+    font-family: "Calibri";
+}
+
+h5, .mega {
+	font-size: 1rem;
+    font-family: "Calibri";
+}
+
+h6, .kilo {
+    font-size: 0.8rem;
+    font-family: "Calibri";
+	}
+	
+small, .milli {
+	font-size: 0.64rem;
+    font-family: "Calibri";
+}
+
+.micro {
+	font-size: 0.512rem;
+    font-family: "Calibri";
+}
+
+p {
+ font-family: "Candara";   
+}
+
+a {
+    text-decoration:none;
+    color: #5f93d0
+}
+
+ul {
+ list-style-type: none;   
+}
+
+ul li:before {
+    content:"➠";
+}
+
+blockquote {
+ background-color: #f1f3f6   
+}
+
+ol { 
+    font-style:italic 
+}
+
+dt {
+    font-weight:bold
+}
+
