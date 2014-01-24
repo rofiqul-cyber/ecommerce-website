@@ -1,7 +1,14 @@
 /*
-  Colour Palette
-  - Dark green: #060 - rgb(0, 100, 0)
-  - Dark red: #600 - rgb(100, 0, 0)
+    Colour Palette
+    - White: #FFF - rgb(255, 255, 255)
+    - Snowy White: #f1f3f6 - rgb(241, 243, 246)
+    - Light blue: #5f93d0 - rgb(95, 147, 208)
+    – Sea blue: #3b5a89 - rgb(59, 90, 137)
+    – Navy blue: #1f4474 - rgb(31, 68, 116)
+    - Dark ultramarine blue: #263043 - rgb(38, 48, 67)
+    - Dark green: #2f3826 - rgb(47, 56, 38)
+    - Black: #000000 - rgb(0, 0, 0)
+    
  */
 
 h1, h2, h3, h4, h5, h6 {
@@ -77,20 +84,27 @@ a {
     padding: 0 0.3em;
     border-radius: 15px;
     border: 1px solid #5f93d0;
-    box-shadow: 1px 1px 4px 0.5px #1f4474;
+    box-shadow: 1px 0.5px 7px 0.2px #1f4474;
 }
 
 p a {
     border-radius: 0px;
     border: 0px;
+    box-shadow: none;
 }
 
 ul li {
-    margin-left: -1.5em  
+    margin-left: -1.5em;
+    box-shadow: none;
 }
 
 li a {
     border: 0px;
+    box-shadow: none;
+}
+
+dt a {
+    box-shadow: none;
 }
 
 ul {
