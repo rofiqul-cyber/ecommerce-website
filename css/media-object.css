@@ -34,3 +34,8 @@
     list-style-type: none;
     text-decoration:none;
 }
+
+.list-group-item-inline {
+    display: inline-block; /* Makes Li itemsLine up horizontal */
+    margin: 0.5em 0.5em 0em 0em;
+}
