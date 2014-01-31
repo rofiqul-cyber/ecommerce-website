@@ -25,3 +25,12 @@
     overflow: hidden;
 }
 
+.ul-group-inline {
+ display: inline-block;
+ margin: 2em 0em
+}
+
+.list-group {
+    list-style-type: none;
+    text-decoration:none;
+}
