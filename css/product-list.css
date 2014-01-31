@@ -19,3 +19,11 @@
  display: inline-block;
     margin: 2em 0em
 }
+
+.active-size {
+    border: 2px solid #5f93d0;
+}
+
+.inactive {
+    border: 2px solid #fff;
+}
