@@ -6,18 +6,13 @@
     display: block; /* Makes Li itemsLine up virtically */
 }
 
-.list-group-item:before {
+.list-group-item-before {
     content:"";
 }
 
 .list-group-item-inline {
     display: inline-block; /* Makes Li itemsLine up horizontal */
     margin: 0.5em 0.5em 0em 0em;
-}
-
-.ul-group-inline {
- display: inline-block;
-    margin: 2em 0em
 }
 
 .active-size {
