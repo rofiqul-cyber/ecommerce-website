@@ -22,7 +22,8 @@
 }
 
 .ul-group-inline {
-    margin: 0 auto;
+ display: inline-block;
+ margin: 2em 0em
 }
 
 .list-group {
