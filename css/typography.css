@@ -63,6 +63,7 @@ h5, .h5 {
 h6, .h6 {
     font-size: 0.8rem;
     font-family: "Helvetica";
+    font-weight:normal
 	}
 	
 small, .small {

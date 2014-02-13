@@ -1,0 +1,25 @@
+.facebook {
+    width: 35%;
+}
+
+.twiiter {
+    width: 35%;
+}
+
+.logos {
+    float:right;
+}
+
+.horizontal {
+    display: float: right;
+}
+
+background-colour {
+    background-color: #f1f3f6;
+}
+
+copyright headline {
+    margin: 0em;
+    padding: 0em;
+    color: #3b5a89;
+}
