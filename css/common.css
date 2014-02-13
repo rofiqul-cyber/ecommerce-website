@@ -28,3 +28,26 @@ html {
 	display: block;
 	width: 100%;
 }
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both; /* the wrapper must go clear aroundthe clearfix */
+}
+
+.clearfix {
+    *zoom: 1;
+}

@@ -37,3 +37,46 @@
 p {
  color: #263043;   
 }
+
+.media-img img {
+    width: 100%;
+}
+
+.media-img {
+    width: 100%;
+    border-bottom: 2px dashed #1f4474;
+}
+
+.stars img {
+    width: 20px;
+}
+
+.stars {
+    float: left;
+}
+
+.reviews-right {
+    float: right;
+    overflow: hidden;
+}
+
+.media {
+    padding: 2em;
+}
+
+.sale, 
+.regular {
+    display:inline-block;
+    padding: 0.5em;
+}
+
+.sale {
+    background-color: blue;
+    float: left;
+    width: auto;
+}
+
+.regular {
+    float: right;
+    width: auto;
+}
