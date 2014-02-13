@@ -5,3 +5,7 @@
 .search {
     text-align:right;
 }
+
+.horizontal {
+    display:inline-block;
+}
