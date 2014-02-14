@@ -1,0 +1,33 @@
+.facebook,
+.twitter {
+    width: 2.5em;
+    margin-right: .2em;
+}
+
+.logos {
+    position: absolute;
+    right: 0.5em;
+    top: 0.25em;
+    width: 3em;
+    display: block;
+}
+
+.horizontal {
+    float: left;
+    display:inline-block;
+    background-color: #1f4474;
+}
+
+.copyright {
+    display: inline-block;
+    text-align: center;
+    color: #FFF;
+    margin-top: 1em;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: #1f4474;
+    padding: 2em
+}

@@ -13,7 +13,7 @@
 
 .media-img-reversed {
     float: right;
-    margin: 0 0 0 10px
+    margin: 0 0 0 0px;
 }
 
 .media-img-stacked {

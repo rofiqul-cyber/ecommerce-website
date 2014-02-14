@@ -37,3 +37,63 @@
 p {
  color: #263043;   
 }
+
+.media-img img {
+    width: 100%;
+}
+
+.media-img {
+    width: 100%;
+    border-bottom: 2px dashed #1f4474;
+}
+
+.stars img {
+    width: 20px;
+}
+
+.stars {
+    float: left;
+}
+
+.reviews-right {
+    float: right;
+    overflow: hidden;
+}
+
+.media {
+    padding: 2em;
+}
+
+.sale, 
+.regular {
+    display:inline-block;
+    padding: 0.2em;
+}
+
+.sale {
+    background-color: blue;
+    float: left;
+    width: auto;
+    color: #fff;
+    font-size: 1.1em
+}
+
+.regular {
+    width: auto;
+    font-size: 1.1em;
+    padding: 0.5em;
+}
+
+.sale-price {
+    color:#f1f3f6;
+}
+
+.center {
+    text-align: center;
+    width: 100%;
+}
+
+.center img {
+    width: 60%;
+    margin: 0 auto;
+}
