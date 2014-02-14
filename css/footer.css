@@ -1,6 +1,7 @@
 .facebook,
 .twitter {
     width: 2.5em;
+    width: 2em;
     margin-right: .2em;
 }
 
@@ -10,6 +11,9 @@
     top: 0.25em;
     width: 3em;
     display: block;
+    right: 0;
+    width: 6em;
+    display: inline-block;
 }
 
 .horizontal {
@@ -29,5 +33,6 @@ footer {
     width: 100%;
     text-align: center;
     background-color: #1f4474;
-    padding: 2em
+    padding: 2em;
+    padding-bottom: 2em;
 }

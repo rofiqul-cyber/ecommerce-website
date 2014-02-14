@@ -80,6 +80,7 @@ p {
 
 .regular {
     width: auto;
+    text-align: left;
     font-size: 1.1em;
     padding: 0.5em;
 }
@@ -96,4 +97,9 @@ p {
 .center img {
     width: 60%;
     margin: 0 auto;
+}
+
+.regular {
+    float: right;
+    width: auto;
 }
