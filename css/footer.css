@@ -1,18 +1,10 @@
 .facebook,
 .twitter {
-    width: 2.5em;
-    width: 2em;
     margin-right: .2em;
 }
 
 .logos {
-    position: absolute;
-    right: 0.5em;
-    top: 0.25em;
-    width: 3em;
-    display: block;
-    right: 0;
-    width: 6em;
+    width: 2em;
     display: inline-block;
 }
 
@@ -33,6 +25,5 @@ footer {
     width: 100%;
     text-align: center;
     background-color: #1f4474;
-    padding: 2em;
-    padding-bottom: 2em;
+    padding: 1em;
 }

@@ -117,10 +117,15 @@ dt a {
 
 ul {
  list-style-type: none;
+    margin-bottom: 0em;
 }
 
 ul li:before {
     content:"➠ ";
+}
+
+li {
+    width: 5em;
 }
 
 blockquote {
