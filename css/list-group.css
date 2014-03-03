@@ -13,3 +13,7 @@
 .list-group-item-inline {
  display: inline-block; /* Makes Li itemsLine up horizontal */
 }
+
+.li-width {
+    width: 5em;  
+}

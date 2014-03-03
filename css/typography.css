@@ -124,10 +124,6 @@ ul li:before {
     content:"➠ ";
 }
 
-li {
-    width: 5em;
-}
-
 blockquote {
  background-color: #f1f3f6;  
 }
