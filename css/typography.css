@@ -80,9 +80,9 @@ small, .small {
 
 p  {
     font-family: "Helvetica";
-    font-size: 0.9em;
+    font-size: 1em;
     padding: 0 0 1em;
-    line-height: 1.4em;
+    line-height: 1.5em;
 }
 
 a {
