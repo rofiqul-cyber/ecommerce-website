@@ -1,5 +1,7 @@
 .list-group {
     list-style-type: none;
+    margin: 0rem;
+    padding: 0rem;
 }
 
 .list-group-item {
