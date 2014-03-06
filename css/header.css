@@ -4,6 +4,8 @@
 
 .search {
     text-align:right;
+    width: 100%;
+    padding: 5px;
 }
 
 .horizontal {
@@ -16,20 +18,4 @@
 
 .white-link {
     color: #fff;
-}
-
-.about-us-background {
-    overflow:hidden;
-    background-image: url(../images/about-us-background.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
-    margin: 0 0 0 2rem;
-}
-
-.founder {
-    float: left;
-}
-
-.home-page-img {
-    width: 50em;
 }
