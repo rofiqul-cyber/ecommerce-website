@@ -52,24 +52,23 @@ html {
     *zoom: 1;
 }
 
-.about-us-background {
-    overflow:hidden;
-    background-image: url(../images/about-us-background.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
-    margin: 0 0 0 2rem;
-}
-
 .founder {
     float: left;
+    height: 250px;
 }
 
-.home-page-img {
+.home-page-img,
+.about-us-background {
     width: 100%;
     height: 250px;
     background-image:url(../images/home-page-background.jpg);
     background-size: cover;
     background-repeat:no-repeat;
+}
+
+.about-us-background {
+    background-image: url(../images/about-us-background.jpg);
+    background-position: center;
 }
 
 .thank-you-message {
