@@ -53,6 +53,12 @@
 </div>
 </header>
     
+    {% if page.showbanner %}
+<div class="banner">
+    <h4 class="text-white">{{page.bannertext}}</h4>
+</div>
+    {% endif %}
+    
 {{content}}
     
 <footer class="grid horizontal">
