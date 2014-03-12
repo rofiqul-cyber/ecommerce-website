@@ -1,7 +1,62 @@
 <div class="promo-small">
+    <div class="media gutter">
+        
+        <div class="media-img">
+            <img class="img-flex" src="{{site.baseurl}}/images/{{include.image}}" alt"DC Devum Snowboard">
+            <p class="h3 discount"><strong>{{include.discount}}</strong></p>
+        </div>
+        
+        <div class="media-body">
+            <h3>{{include.brand}}</h3>
+            <p class="h5">{{include.description}}</p>
+            <h6>{{include.size}}</h6>
+            <p>
+            <strong class="promo-price h4">{{include.sale-price}}</strong>
+            Reg: <strike>{{include.retail-price}}</strike>
+            </p>
+        </div>
+    
+    </div>   
+</div>
+
+
+
+<!--
+
+% include  promo-small.html title="DC Snowboards" brand="DC Devum Snowboard" description="Experience the difference with Devum" size="154cm, 157cm" sale-price="Sale $210" retail-price="$250" discount="30% OFF" image="land-dinos/iguanodon.jpg" %}
+
+    <h1>DC Snowboards</h1>
+    
+    <div class="product">
+    
+    <div class="media"> Div is an empty box to group elements 
+        
+        <div class="media-img">
+            <img src="../images/devun-snowboard.jpg" alt"DC Devum Snowboard">
+            <p class="h3 discount"><strong>30% OFF</strong></p>
+        </div>
+        
+        <div class="media-body">
+            <h3>DC Devum Snowboard</h3>
+            <p class="h5">Experience the difference with Devum</p>
+            <h6>154cm, 157cm</h6>
+            <p>
+            <strong class="promo-price h4">Sale $210</strong>
+            Reg: <strike>$250</strike>
+            </p>
+        </div>
+
+        </div>   
+    </div>
+
+
+
+<div class="promo-small">
     <img class="img-flex" src="{{site.baseurl}}/images/{{include.image}}" alt="">
     <div class="gutter">
         <h2>{{include.title}}</h2>
         <p>{{include.description}}</p>
     </div>
 </div>
+
+-->
