@@ -1,5 +1,6 @@
 ---
 layout: products
-category: skis
+category: products
+type: ski
 title: Skis
 ---
