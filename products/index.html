@@ -1,0 +1,26 @@
+---
+layout: default
+title: Products
+---
+
+<div class="grid">
+    <div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+        <h1>Products</h1>
+    </div>
+    <div class="unit unit-s-1 unit-m-1-2 unit-l-2-3">
+        <p>Palisar's Finest Selection of Snowboards and Skis</p>
+    </div> 
+</div>
+
+<ul>
+    {% for products in site.pages %}
+        {% if products.category == 'products' %}
+            <li>
+                <a href="{{site.baseurl}}{{products.url}}">
+                    <img src="{{site.baseurl}}/images/{{products.image}}" alt="">
+                    {{products.title}}
+                </a>
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>
