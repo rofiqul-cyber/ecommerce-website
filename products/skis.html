@@ -1,26 +1,40 @@
 ---
 layout: default
 title: Products
+title2: Skis
 ---
 
-<div class="grid">
-    <div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
-        <h1>Products</h1>
-    </div>
-    <div class="unit unit-s-1 unit-m-1-2 unit-l-2-3">
-        <p>Palisar's Finest Selection of Snowboards and Skis</p>
-    </div> 
+{% for products in site.pages %}
+    {% if products.type == 'ski' %}
+            <div>
+    
+    <div class="media">
+        
+        <div class="media-img clearfix">
+            <div class="center">
+                <img src="{{site.baseurl}}/images/products/{{products.image}}" alt="Product">
+            </div>
+        
+        <div class="stars">
+            <img src="{{site.baseurl}}/images/{{products.rating}}" alt="Rating">
+        </div>
+        
+        <a href="#"><h5 class="reviews-right normal">{{products.reviews}}</h5></a>
+            
+        </div>
+        
+        <div class="clearfix">
+        <div class="media-body">
+            <h2>{{products.brand}}</h2>
+            
+            <h4>{{products.specific-product}}</h4>
+            
+            <div>
+                <span class="sale"><p class="sale">{{products.sale}}<strong class="sale-price">{{products.sale-price}}</strong></p></span>
+                <span class="regular"><p>{{products.retail-price}}<strike>{{products.crossout}}</strike></p></span>
+        </div>
+        </div>
+        </div>   
 </div>
-
-<ul>
-    {% for products in site.pages %}
-        {% if products.type == 'ski' %}
-            <li>
-                <a href="{{site.baseurl}}{{products.url}}">
-                    <img src="{{site.baseurl}}/images/{{products.image}}" alt="">
-                    {{products.title}}
-                </a>
-            </li>
-        {% endif %}
-    {% endfor %}
-</ul>
+    {% endif %}
+{% endfor %}

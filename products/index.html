@@ -13,14 +13,19 @@ title: Products
 </div>
 
 <ul>
-    {% for products in site.pages %}
-        {% if products.category == 'products' %}
-            <li>
-                <a href="{{site.baseurl}}{{products.url}}">
-                    <img src="{{site.baseurl}}/images/{{products.image}}" alt="">
-                    {{products.title}}
+    <li>
+        <a href="{{site.baseurl}}/products/snowboards">
+            <img src="{{site.baseurl}}/images/products/snowboard-products.jpg" alt="">
+                    {{products.title1}}
+        </a>
+    </li>
+</ul>
+
+<ul>    
+    <li>
+        <a href="{{site.baseurl}}/products/skis">
+                <img src="{{site.baseurl}}/images/products/ski-products.jpg" alt="">
+                    {{products.title2}}
                 </a>
             </li>
-        {% endif %}
-    {% endfor %}
 </ul>
