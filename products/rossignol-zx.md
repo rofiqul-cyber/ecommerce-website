@@ -3,7 +3,7 @@ layout: products
 category: products
 type: ski
 image: burton-z1x.jpg
-rating: star-graphic.svg
+rating: star-rating-1.svg
 reviews: 6 Reviews
 brand: DC
 specific-product: DC Ply Snowboard
