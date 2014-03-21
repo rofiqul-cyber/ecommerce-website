@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Products
-title2: Skis
 ---
 
 {% for products in site.pages %}
     {% if products.type == 'ski' %}
-            <div>
     
-    <div class="media">
+
+<div class="grid">
+    <div class="media unit unit-s-1 unit-m-1-2 unit-l-1-3">
         
         <div class="media-img clearfix">
             <div class="center">
@@ -35,6 +35,7 @@ title2: Skis
         </div>
         </div>
         </div>   
+    </div>
 </div>
     {% endif %}
 {% endfor %}
