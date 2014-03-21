@@ -75,3 +75,15 @@ html {
     font-size: 1.1rem;
     line-height: 1.6rem;
 }
+
+.no-bullet {
+    text-decoration: none;
+}
+
+.snowboard-products {
+    width: 100%;
+}
+
+.ski-products {
+    width: 100%;
+}

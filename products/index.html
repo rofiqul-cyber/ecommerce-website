@@ -3,29 +3,38 @@ layout: default
 title: Products
 ---
 
+<link href="../css/common.css" rel="stylesheet">
+
 <div class="grid">
     <div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
         <h1>Products</h1>
     </div>
     <div class="unit unit-s-1 unit-m-1-2 unit-l-2-3">
-        <p>Palisar's Finest Selection of Snowboards and Skis</p>
+        <h4>Palisar's Finest Selection of Snowboards and Skis</h4>
     </div> 
 </div>
 
-<ul>
-    <li>
-        <a href="{{site.baseurl}}/products/snowboards">
-            <img src="{{site.baseurl}}/images/products/snowboard-products.jpg" alt="">
+<div class="grid">
+    <div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+        <ul>
+            <li>
+            <a class="no-bullet" href="{{site.baseurl}}/products/snowboards">
+                <img class="snowboard-products" src="{{site.baseurl}}/images/products/snowboard-products.jpg" alt="">
                     {{products.title1}}
-        </a>
-    </li>
-</ul>
-
-<ul>    
-    <li>
-        <a href="{{site.baseurl}}/products/skis">
-                <img src="{{site.baseurl}}/images/products/ski-products.jpg" alt="">
-                    {{products.title2}}
-                </a>
+            </a>
             </li>
-</ul>
+        </ul>
+    </div>    
+
+
+<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+    <ul>    
+        <li>
+            <a class="no-bullet" href="{{site.baseurl}}/products/skis">
+                <img class="ski-products" src="{{site.baseurl}}/images/products/ski-products.jpg" alt="">
+                    {{products.title2}}
+            </a>
+        </li>
+    </ul>
+</div>
+</div>
