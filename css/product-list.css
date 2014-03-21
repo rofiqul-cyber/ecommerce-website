@@ -48,12 +48,13 @@ p {
 }
 
 .stars img {
-    width: 20px;
+    width: auto;
+    height: 14px;
 }
 
 .stars {
     float: left;
-    width: 100%;
+    width: 50%;
 }
 
 .reviews-right {
