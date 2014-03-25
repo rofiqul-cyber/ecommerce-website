@@ -17,10 +17,12 @@
 
 .active-size {
     border: 2px solid #5f93d0;
+    width: 5em;
 }
 
 .inactive {
     border: 2px solid #fff;
+    width: 5em;
 }
 
 .img-flex {
