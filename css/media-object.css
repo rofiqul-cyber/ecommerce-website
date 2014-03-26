@@ -4,15 +4,15 @@
 
 .media-img {
     float: left;
-    margin: 0 10px 0 0;
+    margin: 0 0 0 0;
+    width: 50%;
 }
 
 .media-body {
-    overflow: hidden;
-    width: 100%;
 }
 
 .media-img-reversed {
+    width: 50%;
     float: right;
     margin: 0 0 0 0px;
 }
@@ -20,6 +20,18 @@
 .media-img-stacked {
     float: none;
     margin: 0;
+}
+
+.media-img-cart {
+    float: left;
+    margin: 0 0 0 0;
+    width: 50%;
+}
+
+media-body-cart {
+    float: right;
+    margin: 0;
+    width: 50%;
 }
 
 .ul-group-inline {
@@ -34,4 +46,8 @@
 .list-group-item-inline {
     display: inline-block; /* Makes Li itemsLine up horizontal */
     margin: 0.5em 0.5em 0em 0em;
+}
+
+.shopping-cart-item {
+    width: 11em;
 }

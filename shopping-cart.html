@@ -1,0 +1,54 @@
+---
+layout: default
+title: Shopping Cart
+---
+
+<h2>Cart Items</h2>
+
+<div class="product">
+    <div class="media"> <!-- Div is an empty box to group elements -->
+        <div class="media-img-cart">
+        <img class="shopping-cart-item" src="../images/products/ski-rossignol-experience-98.jpg" alt"Ski Rossignol Experience">
+        </div>
+    
+        <div class="media-body-cart">
+            <h3>Rossignol Experience 98 Skis 2014</h3>
+            <img class="stars" src="../images/star-rating-4.svg" alt"Four Stars Rating">
+            <br>
+            <form method="get" action="{{site.baseurl}}/search/">
+            <label class= for="search"></label>
+                <input type="search" id="search" class="quantity-input">
+            <a class="btn btn-alt" href="#">Quantity Update</a>
+            </form>
+        </div>
+     </div>
+    
+    <div class="media"> <!-- Div is an empty box to group elements -->
+        <div class="media-img-cart">
+        <img class="shopping-cart-item" src="../images/products/ski-rossignol-experience-98.jpg" alt"Ski Rossignol Experience">
+        </div>
+    
+        <div class="media-body-cart">
+            <h3>Rossignol Experience 98 Skis 2014</h3>
+            <img class="stars" src="../images/star-rating-4.svg" alt"Four Stars Rating">
+            <br>
+            <form method="get" action="{{site.baseurl}}/search/">
+            <label class= for="search"></label>
+                <input type="search" id="search" class="quantity-input">
+            <a class="btn btn-alt" href="#">Quantity Update</a>
+            </form>
+        </div>
+     </div>
+</div>
+
+<h5>Product Total: $40.00</h5>
+<h5>Shipping Total: $15.00</h5>
+<h5>Subtotal: $5.20</h5>
+
+<div class="border-bottom"></div>
+
+<h5>Total: $45.19</h5>
+
+<a class="btn btn-alt" href="#">Continue Shopping</a>
+<a class="btn" href="{{site.baseurl}}/thank-you/">Checkout</a>
+

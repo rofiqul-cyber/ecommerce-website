@@ -57,6 +57,7 @@ p {
 .stars {
     float: left;
     width: 50%;
+    padding: 0em 0em 0em 1em;
 }
 
 .reviews-right {

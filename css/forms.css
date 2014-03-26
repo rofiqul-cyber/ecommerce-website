@@ -29,3 +29,16 @@
 .go a:hover {
     background-image: linear-gradient(to bottom, #5f93d0, #fff);
 }
+
+.quantity-input{
+    display: inline-block;
+    padding: 0.5em 0em;
+    background-color:#f1f3f6;
+    background-image: linear-gradient(to bottom, #fff, #f1f3f6);
+    border-radius: 2px;
+    box-shadow: 0.5px 0.5px 5px rgba(0,0,0,0.5);
+    border: 0;
+    color: black;
+    font-weight: lighter;
+    font-size: 1em;
+}

@@ -154,6 +154,10 @@ strong {
  color: #5f93d0;
 }
 
+strong-blk {
+ color: #000000;
+}
+
 blockquote {
     background-color: #f1f3f6;
     padding: 1em;
