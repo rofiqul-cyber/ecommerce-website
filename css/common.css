@@ -91,3 +91,7 @@ html {
 .border-bottom {
     border-bottom: 2px solid
 }
+
+.padding-bottom {
+    padding: 1em
+}
