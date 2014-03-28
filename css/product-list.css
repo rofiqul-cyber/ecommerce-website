@@ -47,6 +47,7 @@ p {
 .media-img {
     width: 100%;
     border-bottom: 2px dashed #1f4474;
+    margin-bottom: 1rem;
 }
 
 .stars img {
