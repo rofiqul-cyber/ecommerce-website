@@ -11,5 +11,5 @@ sale: Sale
 sale-price: $540.00
 retail-price: "Reg:"
 crossout: $885.99
-buy-now: Buy Now
+buy-now: Add to Cart
 ---

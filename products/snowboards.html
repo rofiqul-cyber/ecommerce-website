@@ -24,14 +24,15 @@ title: Products
         
     <div class="clearfix">
         <div class="media-body">
-            <h2>{{products.brand}}</h2>
+            <h2>{{products.specific-product}}</h2>
             
-            <h4>{{products.specific-product}}</h4>
+            <h4>{{products.brand}}</h4>
             
             <div>
                 <span class="sale"><p class="sale">{{products.sale}}<strong class="sale-price">{{products.sale-price}}</strong></p></span>
                 <span class="regular"><p>{{products.retail-price}}<strike>{{products.crossout}}</strike></p></span>
         </div>
+        <a class="btn btn-alt" href="{{site.baseurl}}{{products.url}}">Product Details</a>{{page.buy-now}}
         </div>
     </div>   
     </div>

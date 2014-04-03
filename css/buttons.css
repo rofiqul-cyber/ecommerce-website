@@ -28,4 +28,15 @@
 .btn-alt:hover {
     color:#5f93d0;
     background-image: linear-gradient(to bottom, #fff, #f1f3f6);
+    
+
+.image-link,
+.image-link:link,
+.image-link:visited {
+        color: none;
+}
+    
+.image-link:hover {
+        color: #5f93d0;
+        background-color: #5f93d0;
 }
