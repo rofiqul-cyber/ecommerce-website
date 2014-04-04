@@ -21,27 +21,23 @@ User testing was conducted by {your name} on {specific date} between the times o
 
 ### {David Birch}
 
-- {She completed the task as expected…}
-- {She had troubles completing a specific task…}
-- etc.
+Had trouble navigating menu. The voice over didn't detect the name of the product item. Solution is to have an a tag over a link.
 
-### {John Doe}
+### {Jake Asiddao}
 
-- {He completed the task as expected…}
-- {He had troubles completing a specific task…}
-- etc.
+Jake took a while to complete the tasks.
+Image needs an alt tag to define the product list item.
 
-### {Jordan Doe}
+### {Martine Cormier}
 
 - {They completed the task as expected…}
 - {They had troubles completing a specific task…}
 - etc.
 
-### {Theresa Doe}
+### {Elzahra Elghirani}
 
-- {She completed the task as expected…}
-- {She had troubles completing a specific task…}
-- etc.
+- Elzahra noticed that the sale price should be highlighted in red.
+– Elzahra was a bit confused that the snowboards and skis were category items. Maybe there should a show snowboards or list snowboards item.
 
 ### {Todd Doe}
 
@@ -61,7 +57,7 @@ User testing was conducted by {your name} on {specific date} between the times o
 
 ### Critical, Needs Fixing, Unable to Complete
 
-- {All participants had this problem…}
+- All participants coudn't detect the name of the product they were selecting right away. The product images needed an alt tag. 
 - etc.
 
 ### Serious, Causes Frustration, May Hinder Completion
