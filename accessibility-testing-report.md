@@ -30,26 +30,20 @@ Image needs an alt tag to define the product list item.
 
 ### {Martine Cormier}
 
-- {They completed the task as expected…}
-- {They had troubles completing a specific task…}
-- etc.
+- Had trouble completing most of the tasks was confused for most of the process.
 
 ### {Elzahra Elghirani}
 
 - Elzahra noticed that the sale price should be highlighted in red.
 – Elzahra was a bit confused that the snowboards and skis were category items. Maybe there should a show snowboards or list snowboards item.
 
-### {Todd Doe}
+### {Mike Slingerland}
 
-- {He completed the task as expected…}
-- {He had troubles completing a specific task…}
-- etc.
+- Mike no no trouble naviagting the site using the tab key. One thing that threw him off though was the that the page didn't scroll. The product details image was a bit too big. and that the focus areas didn't match the search buttons.
 
-### {Taylor Doe}
+### {Sebastian Nadeau}
 
-- {They completed the task as expected…}
-- {They had troubles completing a specific task…}
-- etc.
+- Had no trouble navigating the site. Focus areas didn't match the buttons.
 
 ---
 
