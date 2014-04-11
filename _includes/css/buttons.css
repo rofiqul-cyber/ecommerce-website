@@ -33,10 +33,12 @@
 .image-link,
 .image-link:link,
 .image-link:visited {
+        padding: 1em;
+        display: block;
         color: none;
 }
     
 .image-link:hover {
-        color: #5f93d0;
+        color: #fff;
         background-color: #5f93d0;
 }
