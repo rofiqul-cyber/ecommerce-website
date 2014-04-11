@@ -2,7 +2,7 @@
 layout: products
 category: products
 type: snowboard
-image: dc-focus.jpg
+image: ![DC Focus Snowboard] dc-focus.jpg
 rating: star-rating-5.svg
 reviews: 3 Reviews
 brand: DC

@@ -2,7 +2,7 @@
 layout: products
 category: products
 type: snowboard
-image: devun-snowboard.jpg
+image: ![Devum Snowboard] devun-snowboard.jpg
 rating: star-rating-4.svg
 reviews: 5 Reviews
 brand: DC

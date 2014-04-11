@@ -2,7 +2,7 @@
 layout: products
 category: products
 type: ski
-image: ski-salomon-suspect.jpg
+image: ![Salomon Suspect Skis] ski-salomon-suspect.jpg
 rating: star-rating-5.svg
 reviews: 7 Reviews
 brand: Salomon

@@ -2,7 +2,7 @@
 layout: products
 category: products
 type: ski
-image: ski-rossignol-experience-98.jpg
+image: ![Rossignol Experience 98 Skis] ski-rossignol-experience-98.jpg
 rating: star-rating-5.svg
 reviews: 6 Reviews
 brand: Rossignol

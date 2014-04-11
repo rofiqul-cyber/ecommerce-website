@@ -2,7 +2,7 @@
 layout: products
 category: products
 type: snowboard
-image: snowboard-ride-crush.jpg
+image: ![Ride Crush Snowboard] snowboard-ride-crush.jpg
 rating: star-rating-4.svg
 reviews: 3 Reviews
 brand: Ride

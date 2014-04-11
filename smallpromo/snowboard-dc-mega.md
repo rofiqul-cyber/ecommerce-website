@@ -2,7 +2,7 @@
 layout: products
 category: products
 type: snowboard
-image: dc-mega.jpg
+image: ![DC Mega Snowboard] dc-mega.jpg
 rating: star-rating-3.svg
 reviews: 5 Reviews
 brand: DC
