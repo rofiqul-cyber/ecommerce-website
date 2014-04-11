@@ -2,7 +2,7 @@
 layout: products
 category: products
 type: ski
-image: ![Salomon Pro Pipe Skis] ski-salomon-pro-pipe.jpg
+image: ski-salomon-pro-pipe.jpg
 rating: star-rating-3.svg
 reviews: 3 Reviews
 brand: Salomon

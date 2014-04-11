@@ -2,7 +2,7 @@
 layout: products
 category: products
 type: ski
-image: ![K2 Amp Aftershock Skis] ski-k2-amp-aftershock.jpg
+image: ski-k2-amp-aftershock.jpg
 rating: star-rating-4.svg
 reviews: 2 Reviews
 brand: K2

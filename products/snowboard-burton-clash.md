@@ -2,7 +2,7 @@
 layout: products
 category: products
 type: snowboard
-image: ![Burton Clash Snowboard] snowboard-burton-clash.jpg
+image: snowboard-burton-clash.jpg
 rating: star-rating-3.svg
 reviews: 4 Reviews
 brand: Burton

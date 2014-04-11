@@ -2,7 +2,7 @@
 layout: products
 category: products
 type: snowboard
-image: ![Ride DH Snowboard] snowboard-ride-dh.jpg
+image: snowboard-ride-dh.jpg
 rating: star-rating-5.svg
 reviews: 8 Reviews
 brand: Ride

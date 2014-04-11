@@ -2,7 +2,7 @@
 layout: products
 category: products
 type: snowboard
-image: ![Burton Barracuda Snowboard] snowboard-burton-barracuda.jpg
+image: snowboard-burton-barracuda.jpg
 rating: star-rating-5.svg
 reviews: 5 Reviews
 brand: Burton
